@@ -1,5 +1,5 @@
 {
-  "id" : "id.sch.smkn2kediri.UNBK",
+  "app-id" : "id.sch.smkn2kediri.UNBK",
   "runtime" : "org.freedesktop.Platform",
   "runtime-version" : "1.6",
   "sdk" : "org.freedesktop.Sdk",
