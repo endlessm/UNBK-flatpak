@@ -4,6 +4,7 @@
   "runtime-version" : "1.6",
   "sdk" : "org.freedesktop.Sdk",
   "base" : "io.atom.electron.BaseApp",
+  "base-version": "stable",
   "command" : "exambrowser",
   "finish-args" : [
     "--socket=x11",
