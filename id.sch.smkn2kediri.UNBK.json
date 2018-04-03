@@ -1,0 +1,61 @@
+{
+  "id" : "id.sch.smkn2kediri.UNBK",
+  "branch" : "stable",
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "1.6",
+  "sdk" : "org.freedesktop.Sdk",
+  "base" : "io.atom.electron.BaseApp",
+  "command" : "exambrowser",
+  "finish-args" : [
+    "--socket=x11",
+    "--share=ipc",
+    "--device=dri",
+    "--share=network",
+    "--talk-name=org.freedesktop.Notifications"
+  ],
+ "modules": [
+    {
+      "name": "UBNK",
+      "buildsystem": "simple",
+      "build-commands":[
+        "mkdir -p /app/UBNK /app/bin",
+        "cp -ra * /app/UBNK",
+        "ln -s /app/UBNK/exambrowser /app/bin",
+        "mkdir -p /app/share/applications",
+        "cp id.sch.smkn2kediri.UNBK.desktop /app/share/applications",
+        "mkdir -p /app/share/icons/hicolor/128x128/apps /app/share/icons/hicolor/64x64/apps",
+        "cp icon.128x128.png /app/share/icons/hicolor/128x128/apps/id.sch.smkn2kediri.UNBK.png",
+        "cp icon.64x64.png /app/share/icons/hicolor/64x64/apps/id.sch.smkn2kediri.UNBK.png",
+        "mkdir -p /app/share/appdata",
+        "cp id.sch.smkn2kediri.UNBK.appdata.xml /app/share/appdata/"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "http://elearning.smkn2kediri.sch.id/repository/MASTER_SOFTWARE/MASTER_UNBK/unbk2017simulasi2/exambrowser-linux-x64_170201.zip",
+          "sha256": "8f2aa2efe477a743739caf9a431575646309d5645081e534bdd862456b201904"
+        },
+        {
+          "type": "file",
+          "path": "icon.128x128.png",
+          "dest-filename": "icon.128x128.png"
+        },
+        {
+          "type": "file",
+          "path": "icon.64x64.png",
+          "dest-filename": "icon.64x64.png"
+        },
+        {
+          "type": "file",
+          "path": "id.sch.smkn2kediri.UNBK.desktop",
+          "dest-filename": "id.sch.smkn2kediri.UNBK.desktop"
+        },
+        {
+          "type": "file",
+          "path": "id.sch.smkn2kediri.UNBK.appdata.xml",
+          "dest-filename": "id.sch.smkn2kediri.UNBK.appdata.xml"
+        }
+      ]
+    }
+  ]
+}

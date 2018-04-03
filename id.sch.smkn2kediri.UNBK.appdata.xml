@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- See https://wiki.gnome.org/GnomeGoals/AppDataGnomeSoftware -->
+<component type="desktop">
+  <id>id.sch.smkn2kediri.UNBK.desktop</id>
+  <metadata_licence>ISC</metadata_licence>
+  <name>UBNK</name>
+  <summary>Indonesian Exam Browser</summary>
+  <description>
+    <p>
+      Indonesian Exam Browser
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://raw.githubusercontent.com/uajain/UNBK-flatpak/master/unbk-screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://ubk.kemdikbud.go.id/</url>
+</component>
