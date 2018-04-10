@@ -15,5 +15,8 @@
       <image type="source">https://raw.githubusercontent.com/endlessm/UNBK-flatpak/master/unbk-screenshot.png</image>
     </screenshot>
   </screenshots>
+  <releases>
+    <release date="2017-02-01" version="170201"/>
+  </releases>
   <url type="homepage">https://ubk.kemdikbud.go.id/</url>
 </component>
