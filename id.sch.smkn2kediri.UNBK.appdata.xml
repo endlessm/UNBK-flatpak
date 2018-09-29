@@ -3,13 +3,13 @@
 <component type="desktop">
   <id>id.sch.smkn2kediri.UNBK.desktop</id>
   <metadata_license>CC0</metadata_license>
-  <name>UNBK</name>
-  <name xml:lang="id">UNBK</name>
+  <name>Exambrowser</name>
+  <name xml:lang="id">Exambrowser</name>
   <categories>
     <category>Utility</category>
     <category>Education</category>
   </categories>
-  <summary>Exam Browser Client</summary>
+  <summary>Exambrowser Client</summary>
   <summary xml:lang="id">Exam Browser Client</summary>
   <description><p>Exam browser client for UNBK (Ujian Nasional Berbasis Komputer) or Computer Based National Exam in Indonesia.</p></description>
   <description xml:lang="id"><p>Client exam browser untuk Ujian Nasional Berbasis Komputer (UNBK).</p></description>
