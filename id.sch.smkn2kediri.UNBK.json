@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://elearning.smkn2kediri.sch.id/repository/MASTER_SOFTWARE/MASTER_UNBK/unbk2017simulasi2/exambrowser-linux-x64_170201.zip",
-          "sha256": "8f2aa2efe477a743739caf9a431575646309d5645081e534bdd862456b201904"
+          "url": "https://raw.githubusercontent.com/endlessm/UNBK-flatpak/master/bin/exambrowser-linux-x64.zip",
+          "sha256": "47dcf99dd0f83ab1060ee4a45c1684047c1866a64c7c7bc7f7e3c45d7372d6e6"
         },
         {
           "type": "file",
